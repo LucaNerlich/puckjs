@@ -3,8 +3,14 @@
     <title>PuckJS WEB</title>
 </head>
 <body>
-<button onclick="Puck.write('LED1.set();\n');">LED On!</button>
-<button onclick="Puck.write('LED1.reset();\n');">LED Off!</button>
+
+<button onclick="ledOn()">LED On!</button>
+<button onclick="ledOff()">LED Off!</button>
+<button onclick="logBattery()">Log Battery</button>
+
+
+<!-- Load Puck Dependency -->
 <script src="resources/puckjs.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
