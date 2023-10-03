@@ -1,3 +1,4 @@
+//http://www.espruino.com/BLE+Keyboard
 var kb = require("ble_hid_keyboard");
 NRF.setServices(undefined, { hid : kb.report });
 function btnPressed() {
